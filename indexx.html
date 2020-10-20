@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Full responsive website
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <style>
+             *{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+             }
+             .carousel-item img{
+                 width: 100%;
+                 height: 100%;
+             }
+             footer{
+                 width: 100%;
+                 background-color: #0e5dac;
+                 color: white;
+             }
+             .link li a{
+                 text-decoration: none;
+                 color: white;
+                 font-size: 25px;
+             }
+             .link li a:hover{
+                 color: royalblue;
+             }
+             @media (max-width: 768px;){
+                 .link li a{
+                        text-decoration: none;
+                 }
+             }
+         </style>
+    </head>
+    <body>
+
+<header>
+     <!-- navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+
+            <a href="dkstyle.html" class="navbar-brand text-primary">DKSTYLES</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navid">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navid">
+
+                <ul class="navbar-nav text-center ml-auto">
+                    <li class="navbar-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="navbar-item ">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+   <!-- navigation bar end -->
+
+
+    <!-- images slide start -->
+    <div class="container-fluid"> 
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="hi.jpg">
+                <div class="carousel-caption">
+                    <h2>Welcome to Friend!!</h2>
+                    <p>You are awesome!!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Metsasitikas.jpg">
+                <div class="carousel-caption">
+                    <h2>Welcome to Friend!!</h2>
+                    <p>Keep Smile!!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="natural.jpg">
+                <div class="carousel-caption">
+                    <h2>Welcome to Friend!!</h2>
+                    <p>Keep coding!!!</p>
+                </div>
+               
+            </div>
+        </div>
+        <ul class="carousel-indicators">
+            
+         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+    
+        </ul> 
+
+        
+       <a class="carousel-control-prev" data-slide="prev" href="#mycarousel">
+           <span class="carousel-control-prev-icon">
+
+           </span>
+       </a>
+       <a class="carousel-control-next" data-slide="next" href="#mycarousel">
+        <span class="carousel-control-next-icon">
+            
+        </span>
+    </a>
+</span>
+
+    </div>
+</div>
+        <!-- images slide end -->
+</header>
+
+
+        <!-- about start -->
+<section>
+    <div class="container">
+        <h1 class="text-success text-center pt-5">About us</h1>
+
+        <hr class="w-25 max-auto">
+        
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="images/coding.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12"> 
+            <p>Hello ! Everyone. We are web developer. We are make one website under 2 days  If you want make a website then contact us. We make a dyanamically,static,and portfolio website.Now we are waiting for your contact.</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+            <!-- about end -->
+  <!-- Services start -->
+        <section class="pb-5">
+            <h2 class="text-primary text-center pt-5 pb-5">Services</h2>
+            <hr class="w-25 max-auto">
+            
+            <hr class="w-25 mx-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="coding1.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="coding2.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <img src="coding3.jpg" class="img-fluid">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Services end -->
+
+        <!-- contact start -->
+        <section class="pt-5 pb-5">
+            <h2 class="text-danger text-center">Contact</h2>
+            <hr class="w-25 max-auto">
+            <form class="form-group">
+
+                <label for="text">Username:)</label>
+                <input type="text" name="" class="form-control" id="text">
+
+                <label for="text">Email:)</label>
+                <input type="email" name="" class="form-control" id="text">
+
+                <label for="text">Password:)</label>
+                <input type="password" name="" class="form-control" id="text">
+
+            </form>
+            <button type="button"  class="btn btn-primary d-block">Submit</button>
+        </section>
+
+        <!-- footer start -->
+        <footer>
+            <main class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p>Copyright © 2020 dipakkumal.com, All Rights Reserved.
+                            Any other brand information used from us are the properties of their respective owners.
+                            Follow dipakkumal.com on Facebook
+                            </p>
+                    </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h3>contact</h3>
+                    <dl>
+                        <dt>Address:)</dt>
+                        <dd>Dang Nepal</dd>
+                    </dl>
+                    <dl>
+                        <dt>Email***</dt>
+                        <dd milto:iamdksyle@gmail.com>dipakkumal673@gmail.com</dd>
+                    </dl>
+                    <dl>
+                        <dt>PhoneNumber:)</dt>
+                        <dd>+977 9809090909</dd>
+                    </dl>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h4>Links</h4>
+                    <ul class="link">
+                        <li class="lits"><a href="" >Services</a></li>
+                        <li><a href="" >Blug</a></li>
+                        <li><a href=""  >Privacy</a></li>
+                        <li><a href="" >Term&condition</a></li>
+                        <li><a href="">Policy</a></li>
+                    </ul>
+                </div>
+                
+                </div>
+            </main>
+ <div class="container p-5 social" >
+     <a href="https://www.facebook.com/dipak.kumal.9235/" > <i class="fa fa-facebook" style="font-size: 70px; margin-left: 80px;"></i></a>
+     <a href="https://github.com/Dipak1203" > <i class="fa fa-github" style="font-size: 70px;"></i></a>
+     <a href="" > <i class="fa fa-envolop"></i></a>
+ </div>
+
+        </footer>
+
+
+        <!-- footer end -->
+        <!-- <script>
+            
+            var named=prompt("Would you like to enter your name");
+            var name=("Nice to meet you !" + named);
+
+            alert(name);
+        </script> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
